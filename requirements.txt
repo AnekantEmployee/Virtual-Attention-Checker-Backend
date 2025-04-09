@@ -7,7 +7,7 @@ mediapipe==0.10.21
 mtcnn==1.0.0
 numpy>=1.24.0,<2.0.0
 pandas==2.2.3
-Pillow==11.1.0
+Pillow
 pyautogui==0.9.54
 pydantic==2.11.3
 python-dotenv==1.1.0
