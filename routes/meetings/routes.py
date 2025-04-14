@@ -14,6 +14,7 @@ router = APIRouter()
 @router.post("/create", response_model=Meeting)
 async def create_meeting_endpoint(meeting: Meeting):
     try:
+        # print(meeting)
         return await create_meeting(meeting)
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
